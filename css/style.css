@@ -1,0 +1,44 @@
+body{
+    font-size: 200%;
+    font-family: 'Lato', sans-serif;
+    background-color: #fffbef;
+    text-align: center;
+}
+h1 {
+    font-size: 250%;
+    text-align: center;
+    color: #199819;
+}
+@media (min-width: 1000px) {
+    .container {
+        left: 50%;
+        top: 25%;
+        position: absolute;
+    }
+
+    .container-inner {
+        width: 800px;
+        height: 100%;
+        margin-left: -400px;
+        height: 300px;
+        max-width: 800px;
+        max-height: 500px;
+    }
+}
+@media (max-width: 1000px) {
+    body {
+        font-size: 150%;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    .container-inner {
+        left: 25%;
+        top: 25%;
+        position: absolute;
+        width: 50%;
+        height: 300px;
+        max-width: 500px;
+        max-height: 500px;
+    }
+}
